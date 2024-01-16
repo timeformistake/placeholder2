@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  line-height: 1.7;
+  font-size: 14px;
+  background: #FFD700;
+}
+
+.container {
+  max-width: 440px;
+  padding: 20px;
+}
+
+.user-profile {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  margin-bottom: 10px;  
+}
+
+.user-photo {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-right: 10px;
+}
+
+.posts-button {
+  padding: 5px 10px;
+  font-size: 10px;
+  background-color: rgb(22, 22, 189);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+}
+
+.posts-button:hover {
+  background-color: rgba(116, 13, 201, 0.727);
+}
+
+.post-block {
+  width: 640px;
+  background-color: white;
+  padding: 10px 30px;
+}
+
+.back-button {
+  margin-top: 10px;
+}
